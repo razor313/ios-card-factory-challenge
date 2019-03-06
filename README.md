@@ -30,8 +30,8 @@ You should initialize cards list from this URL: [http://static.pushe.co/challeng
 
 ## Expectations
 
+- You should implement the challenge using Objective-C
 - We want a clean, readable and maintainable code
-- You may choose to code in either Swift 4.2 or Objective-C
 
 ## Tests
 
