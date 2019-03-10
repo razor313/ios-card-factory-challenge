@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C08A9B1F31B6F34DE01A9B /* Pods_Card_Factory_ChallenageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E23B73E03725BF220AC2641 /* Pods_Card_Factory_ChallenageTests.framework */; };
+		3FE55ABF7CBA96ADBCA3702E /* Pods_Card_Factory_Challenage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5171C9514B14281BE7857324 /* Pods_Card_Factory_Challenage.framework */; };
+		E6673BAE2234709A004E85DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6673BAD2234709A004E85DE /* AppDelegate.m */; };
+		E6673BB12234709A004E85DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6673BB02234709A004E85DE /* ViewController.m */; };
+		E6673BB42234709A004E85DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6673BB22234709A004E85DE /* Main.storyboard */; };
+		E6673BB62234709B004E85DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6673BB52234709B004E85DE /* Assets.xcassets */; };
+		E6673BB92234709B004E85DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6673BB72234709B004E85DE /* LaunchScreen.storyboard */; };
+		E6673BBC2234709B004E85DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6673BBB2234709B004E85DE /* main.m */; };
+		E6673BC62234709C004E85DE /* Card_Factory_ChallenageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6673BC52234709C004E85DE /* Card_Factory_ChallenageTests.m */; };
+		E6673BD52235A396004E85DE /* CardDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = E6673BD42235A396004E85DE /* CardDTO.m */; };
+		E6673BDA2235B4C7004E85DE /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = E6673BD92235B4C7004E85DE /* Network.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6673BC22234709C004E85DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6673BA12234709A004E85DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6673BA82234709A004E85DE;
+			remoteInfo = "Card Factory Challenage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5171C9514B14281BE7857324 /* Pods_Card_Factory_Challenage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Card_Factory_Challenage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E23B73E03725BF220AC2641 /* Pods_Card_Factory_ChallenageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Card_Factory_ChallenageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		729F55F79A2C3661035A6E10 /* Pods-Card Factory Challenage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Factory Challenage.release.xcconfig"; path = "Target Support Files/Pods-Card Factory Challenage/Pods-Card Factory Challenage.release.xcconfig"; sourceTree = "<group>"; };
+		A10456C75A0A5ED31E04DDB6 /* Pods-Card Factory Challenage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Factory Challenage.debug.xcconfig"; path = "Target Support Files/Pods-Card Factory Challenage/Pods-Card Factory Challenage.debug.xcconfig"; sourceTree = "<group>"; };
+		AECCA862DD648B1CF3104987 /* Pods-Card Factory ChallenageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Factory ChallenageTests.debug.xcconfig"; path = "Target Support Files/Pods-Card Factory ChallenageTests/Pods-Card Factory ChallenageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C09327DE53933D8AFCADC9AD /* Pods-Card Factory ChallenageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Factory ChallenageTests.release.xcconfig"; path = "Target Support Files/Pods-Card Factory ChallenageTests/Pods-Card Factory ChallenageTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6673BA92234709A004E85DE /* Card Factory Challenage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Factory Challenage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6673BAC2234709A004E85DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6673BAD2234709A004E85DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6673BAF2234709A004E85DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6673BB02234709A004E85DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6673BB32234709A004E85DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6673BB52234709B004E85DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6673BB82234709B004E85DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6673BBA2234709B004E85DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6673BBB2234709B004E85DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6673BC12234709C004E85DE /* Card Factory ChallenageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card Factory ChallenageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6673BC52234709C004E85DE /* Card_Factory_ChallenageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card_Factory_ChallenageTests.m; sourceTree = "<group>"; };
+		E6673BC72234709C004E85DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6673BD32235A396004E85DE /* CardDTO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardDTO.h; sourceTree = "<group>"; };
+		E6673BD42235A396004E85DE /* CardDTO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardDTO.m; sourceTree = "<group>"; };
+		E6673BD82235B4C7004E85DE /* Network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		E6673BD92235B4C7004E85DE /* Network.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6673BA62234709A004E85DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE55ABF7CBA96ADBCA3702E /* Pods_Card_Factory_Challenage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6673BBE2234709C004E85DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C08A9B1F31B6F34DE01A9B /* Pods_Card_Factory_ChallenageTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99FB30D31985E6E63CC339BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5171C9514B14281BE7857324 /* Pods_Card_Factory_Challenage.framework */,
+				6E23B73E03725BF220AC2641 /* Pods_Card_Factory_ChallenageTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A46279C86CD5EBD005751D63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A10456C75A0A5ED31E04DDB6 /* Pods-Card Factory Challenage.debug.xcconfig */,
+				729F55F79A2C3661035A6E10 /* Pods-Card Factory Challenage.release.xcconfig */,
+				AECCA862DD648B1CF3104987 /* Pods-Card Factory ChallenageTests.debug.xcconfig */,
+				C09327DE53933D8AFCADC9AD /* Pods-Card Factory ChallenageTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6673BA02234709A004E85DE = {
+			isa = PBXGroup;
+			children = (
+				E6673BAB2234709A004E85DE /* Card Factory Challenage */,
+				E6673BC42234709C004E85DE /* Card Factory ChallenageTests */,
+				E6673BAA2234709A004E85DE /* Products */,
+				A46279C86CD5EBD005751D63 /* Pods */,
+				99FB30D31985E6E63CC339BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6673BAA2234709A004E85DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6673BA92234709A004E85DE /* Card Factory Challenage.app */,
+				E6673BC12234709C004E85DE /* Card Factory ChallenageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6673BAB2234709A004E85DE /* Card Factory Challenage */ = {
+			isa = PBXGroup;
+			children = (
+				E6673BD62235B498004E85DE /* Utils */,
+				E6673BD2223470D9004E85DE /* Contoller */,
+				E6673BD1223470CF004E85DE /* View */,
+				E6673BD0223470C3004E85DE /* Model */,
+				E6673BAC2234709A004E85DE /* AppDelegate.h */,
+				E6673BAD2234709A004E85DE /* AppDelegate.m */,
+				E6673BB52234709B004E85DE /* Assets.xcassets */,
+				E6673BB72234709B004E85DE /* LaunchScreen.storyboard */,
+				E6673BBA2234709B004E85DE /* Info.plist */,
+				E6673BBB2234709B004E85DE /* main.m */,
+			);
+			path = "Card Factory Challenage";
+			sourceTree = "<group>";
+		};
+		E6673BC42234709C004E85DE /* Card Factory ChallenageTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6673BC52234709C004E85DE /* Card_Factory_ChallenageTests.m */,
+				E6673BC72234709C004E85DE /* Info.plist */,
+			);
+			path = "Card Factory ChallenageTests";
+			sourceTree = "<group>";
+		};
+		E6673BD0223470C3004E85DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6673BD32235A396004E85DE /* CardDTO.h */,
+				E6673BD42235A396004E85DE /* CardDTO.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6673BD1223470CF004E85DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6673BB22234709A004E85DE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6673BD2223470D9004E85DE /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				E6673BAF2234709A004E85DE /* ViewController.h */,
+				E6673BB02234709A004E85DE /* ViewController.m */,
+			);
+			path = Contoller;
+			sourceTree = "<group>";
+		};
+		E6673BD62235B498004E85DE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E6673BD82235B4C7004E85DE /* Network.h */,
+				E6673BD92235B4C7004E85DE /* Network.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6673BA82234709A004E85DE /* Card Factory Challenage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6673BCA2234709C004E85DE /* Build configuration list for PBXNativeTarget "Card Factory Challenage" */;
+			buildPhases = (
+				F8A94412E3B9BF5EDA7BD363 /* [CP] Check Pods Manifest.lock */,
+				E6673BA52234709A004E85DE /* Sources */,
+				E6673BA62234709A004E85DE /* Frameworks */,
+				E6673BA72234709A004E85DE /* Resources */,
+				22B0C891A243C93CD8AC4788 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Factory Challenage";
+			productName = "Card Factory Challenage";
+			productReference = E6673BA92234709A004E85DE /* Card Factory Challenage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6673BC02234709C004E85DE /* Card Factory ChallenageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6673BCD2234709C004E85DE /* Build configuration list for PBXNativeTarget "Card Factory ChallenageTests" */;
+			buildPhases = (
+				4D1D51B5D410CEAB43B5728D /* [CP] Check Pods Manifest.lock */,
+				E6673BBD2234709C004E85DE /* Sources */,
+				E6673BBE2234709C004E85DE /* Frameworks */,
+				E6673BBF2234709C004E85DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6673BC32234709C004E85DE /* PBXTargetDependency */,
+			);
+			name = "Card Factory ChallenageTests";
+			productName = "Card Factory ChallenageTests";
+			productReference = E6673BC12234709C004E85DE /* Card Factory ChallenageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6673BA12234709A004E85DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Reza Dehnavi";
+				TargetAttributes = {
+					E6673BA82234709A004E85DE = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					E6673BC02234709C004E85DE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = E6673BA82234709A004E85DE;
+					};
+				};
+			};
+			buildConfigurationList = E6673BA42234709A004E85DE /* Build configuration list for PBXProject "Card Factory Challenage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6673BA02234709A004E85DE;
+			productRefGroup = E6673BAA2234709A004E85DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6673BA82234709A004E85DE /* Card Factory Challenage */,
+				E6673BC02234709C004E85DE /* Card Factory ChallenageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6673BA72234709A004E85DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6673BB92234709B004E85DE /* LaunchScreen.storyboard in Resources */,
+				E6673BB62234709B004E85DE /* Assets.xcassets in Resources */,
+				E6673BB42234709A004E85DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6673BBF2234709C004E85DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22B0C891A243C93CD8AC4788 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Card Factory Challenage/Pods-Card Factory Challenage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Card Factory Challenage/Pods-Card Factory Challenage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D1D51B5D410CEAB43B5728D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Card Factory ChallenageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A94412E3B9BF5EDA7BD363 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Card Factory Challenage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6673BA52234709A004E85DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6673BB12234709A004E85DE /* ViewController.m in Sources */,
+				E6673BDA2235B4C7004E85DE /* Network.m in Sources */,
+				E6673BD52235A396004E85DE /* CardDTO.m in Sources */,
+				E6673BBC2234709B004E85DE /* main.m in Sources */,
+				E6673BAE2234709A004E85DE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6673BBD2234709C004E85DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6673BC62234709C004E85DE /* Card_Factory_ChallenageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6673BC32234709C004E85DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6673BA82234709A004E85DE /* Card Factory Challenage */;
+			targetProxy = E6673BC22234709C004E85DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6673BB22234709A004E85DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6673BB32234709A004E85DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6673BB72234709B004E85DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6673BB82234709B004E85DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6673BC82234709C004E85DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6673BC92234709C004E85DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6673BCB2234709C004E85DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10456C75A0A5ED31E04DDB6 /* Pods-Card Factory Challenage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S24AAKX9K4;
+				INFOPLIST_FILE = "Card Factory Challenage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razor.poshe.challenge1.Card-Factory-Challenage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6673BCC2234709C004E85DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 729F55F79A2C3661035A6E10 /* Pods-Card Factory Challenage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S24AAKX9K4;
+				INFOPLIST_FILE = "Card Factory Challenage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razor.poshe.challenge1.Card-Factory-Challenage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6673BCE2234709C004E85DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECCA862DD648B1CF3104987 /* Pods-Card Factory ChallenageTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Card Factory ChallenageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razor.poshe.challenge1.Card-Factory-ChallenageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Card Factory Challenage.app/Card Factory Challenage";
+			};
+			name = Debug;
+		};
+		E6673BCF2234709C004E85DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C09327DE53933D8AFCADC9AD /* Pods-Card Factory ChallenageTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Card Factory ChallenageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razor.poshe.challenge1.Card-Factory-ChallenageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Card Factory Challenage.app/Card Factory Challenage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6673BA42234709A004E85DE /* Build configuration list for PBXProject "Card Factory Challenage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6673BC82234709C004E85DE /* Debug */,
+				E6673BC92234709C004E85DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6673BCA2234709C004E85DE /* Build configuration list for PBXNativeTarget "Card Factory Challenage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6673BCB2234709C004E85DE /* Debug */,
+				E6673BCC2234709C004E85DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6673BCD2234709C004E85DE /* Build configuration list for PBXNativeTarget "Card Factory ChallenageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6673BCE2234709C004E85DE /* Debug */,
+				E6673BCF2234709C004E85DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6673BA12234709A004E85DE /* Project object */;
+}
